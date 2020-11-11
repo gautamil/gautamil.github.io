@@ -51,6 +51,20 @@ p {
     height: 250px;
 }
 
+h2 {
+    margin: 20px 0px 20px 10px ;
+}
+
+.carousel div img {
+    height: 250px;
+}
+
+.carousel {
+    width: 580px;
+    margin: auto;
+}
+
+
 @media (min-width: 1600px) {
     .full_page {
         height: 950px;
@@ -65,5 +79,8 @@ p {
     
     .main_text p {
         margin: 0 450px 40px 450px;
+    }
+    .red {
+        height: 450px;;
     }
 }
