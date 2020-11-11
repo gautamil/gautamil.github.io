@@ -2,3 +2,30 @@
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 }
+
+.grid-container-inv {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.background-custom {
+    background-color:	#f94b5b;
+}
+
+.img-fluid {
+    margin-top: 6px;
+}
+
+.h1, h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 23px;
+}
+
+.red {
+    background-color: #f94b5b;
+    height: 400px;
+}
