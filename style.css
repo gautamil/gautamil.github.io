@@ -38,12 +38,12 @@ body {
 
 .full_page {
     background-color:#f85565 ;
-    height: auto;
+    height: 580px;
 }
 
 .main_text {
     text-align: center;
-    padding: 10px 0 30px 0;
+    padding: 50px 0 0px 0;
 }
 
 .main_text h1 {
@@ -61,7 +61,7 @@ body {
 }
 
 .h1, h1 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -109,19 +109,19 @@ h2 {
 
 .grid_text {
     display: grid;
-    grid-template-rows: 0.25fr 0.25fr 1fr;
+    grid-template-rows: 0.25fr 0.25fr;
     text-align: center;
     margin: 35px 0 0 0;
     padding: 0 20px;
 }
 
 .grid_text h5 {
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
 .grid_text p {
-    font-size: 17px;
+    font-size: 20px;
     padding: 0px 10px;
 }
 
@@ -162,7 +162,6 @@ h2 {
 .descargar {
     background-color: #f85565;
     padding: 10px 0px;
-    color: white;
 }
 
 .descargar article {
@@ -173,7 +172,6 @@ h2 {
 
 article a {
     text-align: center;
-    color: white;
 }
 
 .click {
@@ -185,23 +183,12 @@ article a {
     color: black;
 }
 
-article a .click2 {
-    text-decoration: none;
-    text-align: center;
-}
-
-.click2 {
-    background-color: #3d5b63;
-    padding: 10px;
-    margin: 0px 60px;
-    border-radius: 5px;
+.click2{
+    color: white;
 }
 
 .click2:hover{
     color: #f85565;
-    text-decoration: none;
-    background-color: #4a6269;
-    transition: 1s;
 }
 
 @media (min-width: 1600px) {
@@ -225,7 +212,7 @@ article a .click2 {
         margin-top: 40px;
     }
     .grid_text {
-        grid-template-rows: 0.5fr 0.25fr 1fr;
+        grid-template-rows: 0.5fr 0.25fr;
         margin: 50px 0 0 0;
     }
     .grid_text h5 {
@@ -233,8 +220,6 @@ article a .click2 {
     }
     .grid_text p {
         padding: 0px 30px;
-        font-size: 20px;
-        padding: 0px 10px;
     }
     .scrollbox {
         margin-top: 40px;
@@ -282,7 +267,7 @@ article a .click2 {
 
 @media (max-width: 990px) {
     .main_text {
-        padding: 30px 0 20px 0;
+        padding: 30px 0 0px 0;
     }
     .main_text h1 {
         font-size: 30px;
@@ -325,7 +310,6 @@ article a .click2 {
     }
     .scrollbox {
         height: auto;
-        overflow-y: hidden;
     }
 }
 
@@ -353,11 +337,5 @@ article a .click2 {
     }
     .grid_why {
         display: initial;
-    }
-    .click2 {
-        padding: 5px;
-    }
-    .scrollbox {
-        overflow-y: hidden;
     }
 }
