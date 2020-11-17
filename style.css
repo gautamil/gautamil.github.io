@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -15,7 +19,6 @@
 .full_page {
     background-color:#f85565 ;
     height: 580px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main_text {
@@ -43,7 +46,7 @@
 }
 
 p {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .our_investigation p {
@@ -52,8 +55,9 @@ p {
 
 .red {
     background-color: #f94b5b;
-    height: 600px;
+    height: auto;
     color:white;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -135,6 +139,21 @@ h2 {
     overflow-x: hidden;
 }
 
+.descargar {
+    background-color: #f85565;
+    padding: 10px 0px;
+}
+
+.descargar article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+article a {
+    text-align: center;
+}
+
 @media (min-width: 1600px) {
     .full_page {
         height: 950px;
@@ -146,12 +165,11 @@ h2 {
         font-size: 45px;
         margin-bottom: 40px;
     }
-    
+    p {
+        font-size: 23px;
+    }
     .main_text p {
         margin: 0 450px 40px 450px;
-    }
-    .red {
-        height: 650px;;
     }
     .grid_why {
         margin-top: 40px;
@@ -177,5 +195,110 @@ h2 {
     
     .looks_like_wav p {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main_text h1 {
+        font-size: 35px;
+    }
+    .main_text p {
+        font-size: 20px;
+        margin: 0 150px 40px 150px;
+    }
+    .our_investigation h1 {
+        font-size: 30px;
+    }
+    .our_investigation p {
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    .red h2 {
+        font-size: 30px;
+    }
+    .red h5 {
+        font-size: 18px;
+    }
+    .grid_text {
+        margin: 30px 0 0 0;
+        padding: 0 14px;
+    }
+    .grid_text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 990px) {
+    .main_text {
+        padding: 30px 0 0px 0;
+    }
+    .main_text h1 {
+        font-size: 30px;
+    }
+    .main_text p {
+        font-size: 18px;
+        margin: 0 100px 20px 150px;
+    }
+    .full_page {
+        background-color:#f85565 ;
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+    }
+    .our_investigation h1 {
+        font-size: 28px;
+    }
+    .our_investigation p {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .grid_why {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid_text h5 {
+        margin-top: 15px;
+    }
+    .grid_text p {
+        font-size: 16px;
+    }
+    .grid-container-inv {
+        display: initial;
+    }
+    .grid-container-inv img {
+        padding: 10px;
+    }
+    .scrollbox {
+        height: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .main_text {
+        padding: 0px 0 35px 0px;
+    }
+    .main_text p {
+        font-size: 18px;
+        margin: 0 30px 20px 30px;
+    }
+    .full_page {
+        background-color:#f85565 ;
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+    }
+    .grid-container {
+        display: initial;
+    }
+    .grid-container img {
+        padding: 10px;
+    }
+    .our_investigation {
+        margin: 0px 20px;
+    }
+    .grid_why {
+        display: initial;
     }
 }
