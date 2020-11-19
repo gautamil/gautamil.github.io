@@ -55,7 +55,6 @@ body {
     margin: 0 250px 40px 250px;
 }
 
-
 .img-fluid {
     margin-top: 6px;
 }
@@ -81,7 +80,7 @@ p {
 }
 
 h2 {
-    margin: 20px 0px 20px 20px ;
+    margin: 5px 0px 20px 20px ;
 }
 
 .carousel div img {
@@ -123,6 +122,10 @@ h2 {
 .grid_text p {
     font-size: 17px;
     padding: 0px 10px;
+}
+
+#pilares h2{
+    margin-top: 20px;
 }
 
 .in3 {
@@ -183,6 +186,7 @@ article a {
 
 .click:hover{
     color: black;
+    transition: 0.5s;
 }
 
 article a .click2 {
@@ -212,6 +216,9 @@ article a .click2 {
     .full_page {
         height: 950px;
     }
+    .investigation_text{
+        font-size: xx-large !important;
+    }
     .main_text {
         padding: 150px 0 0px 0;
     }
@@ -227,6 +234,7 @@ article a .click2 {
     }
     .grid_why {
         margin-top: 40px;
+        padding: 0px 50px;
     }
     .grid_text {
         grid-template-rows: 0.5fr 0.25fr;
@@ -269,6 +277,9 @@ article a .click2 {
         margin-right: 20px;
         font-size: 18px;
     }
+    .investigation_text{
+        font-size: large !important;
+    }
     .red h2 {
         font-size: 30px;
     }
@@ -294,6 +305,9 @@ article a .click2 {
     .main_text p {
         font-size: 18px;
         margin: 0 100px 20px 150px;
+    }
+    .investigation_text{
+        font-size: small !important;
     }
     .full_page {
         background-color:#f85565 ;
