@@ -104,6 +104,7 @@ h2 {
 .grid_why {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
 }
 
 .grid_text {
@@ -117,6 +118,7 @@ h2 {
 .grid_text h5 {
     font-size: 23px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .grid_text p {
@@ -145,7 +147,7 @@ h2 {
 
 .looks_like_wav {
     display: grid;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
 }
 
 .looks_like_wav h5 {
@@ -160,6 +162,7 @@ h2 {
     height: 380px;
     overflow: scroll;
     overflow-x: hidden;
+    margin-bottom: 30px;
 }
 
 .descargar {
