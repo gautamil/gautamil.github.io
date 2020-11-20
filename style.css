@@ -167,14 +167,19 @@ h2 {
 
 .descargar {
     background-color: #f85565;
-    padding: 10px 0px;
+    padding: 10px 0px 2px 0px;
     color: white;
 }
 
 .descargar article {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
+    padding: 20px 20px 60px 20px;
+    justify-items: center;
+}
+
+.descargar article h5 {
+    margin-right: 300px;
 }
 
 article a {
@@ -199,7 +204,7 @@ article a .click2 {
 
 .click2 {
     background-color: #3d5b63;
-    padding: 10px;
+    padding: 10px 15px;
     margin: 0px 60px;
     border-radius: 5px;
 }
@@ -214,6 +219,18 @@ article a .click2 {
     background-color: #4a6269;
     transition: 1s;
 }
+
+.descargar article h5 {
+    margin-top: 10px;
+}
+
+.descargar p {
+    font-size: 14px;
+    margin-left: 12px;
+    padding: 0px;
+    margin: 3px;
+}
+
 
 @media (min-width: 1600px) {
     .full_page {
